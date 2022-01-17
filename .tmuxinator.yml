@@ -1,0 +1,15 @@
+# ./.tmuxinator.yml
+
+name: tailwind-html-starter
+root: ./
+
+startup_window: HTML
+
+windows:
+  - SERVER:
+      layout: even-vertical
+      panes:
+        - clear
+        - npm run watch
+        - npm run live
+  - HTML: vim -S ./Session.vim

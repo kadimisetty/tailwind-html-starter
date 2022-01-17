@@ -1,3 +1,8 @@
+# NOTE: Choosing package-lock.json in order to avoid
+# having it keep coming up in fzf results. I've
+# considered this acceptable in this starter template.
+package-lock.json
+
 # Logs
 logs
 *.log

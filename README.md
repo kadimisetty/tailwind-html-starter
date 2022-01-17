@@ -1,2 +1,5 @@
 # tailwind-html-starter
-tailwind html starter template
+
+# Initial one-time setup
+
+Run `npm install` to setup dependencies etc.

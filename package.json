@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-html-starter",
+  "version": "1.0.0",
+  "description": "tailwind html starter template",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss --input ./tailwind-input.css --output ./public/tailwindcss-output.css --watch",
+    "live": "live-server ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadimisetty/tailwind-html-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadimisetty/tailwind-html-starter/issues"
+  },
+  "homepage": "https://github.com/kadimisetty/tailwind-html-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
