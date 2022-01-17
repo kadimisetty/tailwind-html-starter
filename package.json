@@ -4,7 +4,7 @@
   "description": "tailwind html starter template",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss --input ./tailwind-input.css --output ./public/tailwindcss-output.css --watch",
+    "watch": "tailwindcss --input ./tailwind-input.css --output ./public/tailwindcss-output.css --watch",
     "live": "live-server ./public"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kadimisetty/tailwind-html-starter#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "live-server": "^1.2.1",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.15"
   }
