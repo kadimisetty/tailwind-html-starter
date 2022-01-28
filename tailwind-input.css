@@ -1,4 +1,9 @@
-
+/* [Inter Font](https://github.com/rsms/inter) */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 /* PLACE CUSTOM CSS ABOVE THIS LINE */
 @tailwind base;
 @tailwind components;
